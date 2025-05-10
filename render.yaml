@@ -5,7 +5,7 @@ services:
     buildCommand: |
       pip install -r requirements.txt
       unzip rfr.zip || echo "ZIP extraction skipped"
-    startCommand: streamlit run app.py --server.port=$PORT
+    startCommand: streamlit run app.py --server.port=$PORT --server.headless=true --server.enableCORS=false
     envVars:
       - key: PORT
         value: 8080

@@ -3,7 +3,13 @@ import numpy as np
 import pandas as pd
 import pickle
 import os
+import zipfile
 from PIL import Image  # For adding logo (optional)
+
+# Unzip rfr.pkl if it doesn't exist
+if not os.path.exists('rfr.pkl'):
+    with zipfile.ZipFile('rfr.zip', 'r') as zip_ref:
+        zip_ref.extractall()
 
 # Set page config (first Streamlit command)
 st.set_page_config(
