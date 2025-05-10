@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: calorie-burn-predictor
+    runtime: python
+    buildCommand: |
+      pip install -r requirements.txt
+      unzip rfr.zip || echo "ZIP extraction skipped"
+    startCommand: streamlit run app.py --server.port=$PORT
+    envVars:
+      - key: PORT
+        value: 8080
+    plan: free
