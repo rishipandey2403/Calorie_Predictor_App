@@ -83,11 +83,10 @@ If you are hiring for **Data Engineering, Data Science, Analytics, or AI-focused
 ## 👤 Author Branding Suggestion
 
 To maximize recruiter impact, add your:
-- Full name
-- LinkedIn URL
-- GitHub profile
-- Portfolio website
-- Resume link
+- Rishi Pandey
+- [LinkedIn](https://www.linkedin.com/in/rishi-pandey-48a306169/)
+- [GitHub](https://github.com/rishipandey2403/)
+- [Portfolio](https://sage-custard-40d2f1.netlify.app/)
 
 in this README header/footer so decision-makers can contact you immediately.
 
